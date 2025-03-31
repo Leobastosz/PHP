@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(90, 0, 128), rgb(0, 255, 47));
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+section#form {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    background-color: rgba(153, 40, 210, 0.471);
+
+}
+
+label {
+    padding: 8px;
+    display: inline-block;
+}
